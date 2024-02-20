@@ -36,3 +36,26 @@
     transform: rotate(360deg);
   }
 }
+
+
+body {
+  background-color: rgb(252, 210, 29);
+  width: 99vw;
+  height: 90vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+h1 {
+  color: rgb(0, 0, 0);
+  font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+  text-align: center;
+}
+
+.container {
+  border-color: black;
+  /* background-color: white; */
+  margin-top: 15%;
+}

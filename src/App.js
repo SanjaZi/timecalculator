@@ -1,24 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+<div className="container">
+  <h1>HI! I'M YOUR WASTED TIME CALCULATOR.</h1>
+  <h5>ANSWER THE QUESTIONS BELOW AND SEE HOW MUCH TIME ARE YOU THROWING AWAY ON YOUR MEETINGS.</h5>
+</div>
   );
 }
 
